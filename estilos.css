@@ -35,7 +35,6 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 .presentacion h1{
     font-family: 'Dela Gothic One', cursive;
@@ -208,4 +207,221 @@ body{
 .material-icons:hover{
     cursor: pointer;
     background-color: rgb(19, 127, 235);
+}
+/*RESPONSIVA INICIO*/
+
+/*RESPONSIVA DISEÑO MOVIL*/
+@media screen and (max-width: 290px) {
+    #subtitulo{
+        font-size: 2.4rem;
+    }
+    #titulo_inicio{
+        font-size: 2.3rem;
+    }
+}
+@media screen and (max-width: 302px) {
+    html{
+        font-size: 62%;
+    }
+    .principal{
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .presentacion{
+        width: 90%;
+        justify-content: flex-start;
+    }
+    #titulo_inicio{
+        font-size: 2.3rem;
+    }
+    .imgPresentacion{
+        margin: auto;
+        width: 55%;
+        height: 55%;
+        padding: 1rem;
+    }
+}
+@media screen and (max-width: 315px) {
+    html{
+        font-size: 62%;
+    }
+    .principal{
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .presentacion{
+        width: 90%;
+        justify-content: flex-start;
+    }
+    .imgPresentacion{
+        margin: auto;
+        width: 55%;
+        height: 55%;
+        padding: 1rem;
+    }
+}
+@media screen and (max-width: 312px) {
+    html{
+        font-size: 60%;
+    }
+    .imgPresentacion{
+        margin: auto;
+        width: 50%;
+        height: 50%;
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 218px) {
+    html{
+        font-size: 55%;
+    }
+
+    #titulo_inicio{
+        font-size: 1.9rem;
+    }
+    .imgPresentacion{
+        margin: auto;
+        width: 50%;
+        height: 50%;
+        padding: 1rem;
+    }
+    #subtitulo{
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width: 232px) {
+    html{
+        font-size: 55%;
+    }
+
+    #titulo_inicio{
+        font-size: 2rem;
+    }
+    .imgPresentacion{
+        margin: auto;
+        width: 50%;
+        height: 20%;
+        padding: 1rem;
+    }
+    #subtitulo{
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width: 370px) {
+    .principal{
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .presentacion{
+        width: 90%;
+        justify-content: flex-start;
+    }
+    .presentacion h1{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    #subtitulo{
+        margin: 1rem auto;
+    }
+    .imgPresentacion{
+        margin: auto;
+        width: 55%;
+        height: 55%;
+        padding: 1rem;
+    }
+}
+@media screen and (max-width: 502px) {
+    .principal{
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        min-height: fit-content;
+    }
+    .presentacion{
+        width: 90%;
+        justify-content: flex-start;
+    }
+    .presentacion h1{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    #subtitulo{
+        margin: 1rem auto;
+
+    }
+    .imgPresentacion{
+        margin: auto;
+        width: 55%;
+        height: 55%;
+        padding: 1rem 1rem 5rem 1rem;
+    }
+}
+@media screen and (min-width: 503px) {
+    .presentacion h1{
+        font-size: 2.3rem;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    .imgPresentacion{
+        margin: auto;
+        height:45%;
+    }
+    #subtitulo{
+        font-size: 2.3rem;
+
+    }
+    #descripcion{
+        font-size: 1.3rem;}
+}
+@media screen and (min-width: 550px) {
+    .presentacion h1{
+        font-size: 2.5rem;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    .imgPresentacion{
+        margin: auto;
+        height:45%;
+    }
+    #subtitulo{
+        font-size: 2.3rem;
+    }
+    #descripcion{
+        font-size: 1.3rem;}
+}
+@media screen and (min-width: 603px) {
+    .presentacion h1{
+        font-size: 2.8rem;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    .imgPresentacion{
+        margin: auto;
+        height:45%;
+    }
+    #subtitulo{
+        font-size: 2.4rem;
+    }
+    #descripcion{
+        font-size: 1.5rem;}
+}
+@media screen and (min-width: 803px) {
+    .presentacion h1{
+        font-size: 3.9rem;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    .imgPresentacion{
+        width: 40%;
+        height: 50%;
+    }
+    #subtitulo{
+        font-size: 2.5rem;
+    }
+    #descripcion{
+        font-size: 1.6rem;}
 }
